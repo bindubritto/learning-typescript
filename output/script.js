@@ -18,3 +18,13 @@
 //     return a + b;
 // };
 // myFunc(4, 5);
+// 03 - Function Signature
+// signature
+var add;
+// body
+add = function (a, b) {
+    console.log(a + b);
+    return a + b;
+};
+// call
+console.log(add(5, 6));

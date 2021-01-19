@@ -26,3 +26,18 @@
 // };
 
 // myFunc(4, 5);
+
+
+// 03 - Function Signature
+
+// signature
+let add: (x: number, y: number) => number;
+
+// body
+add = (a: number, b: number) => {
+    console.log(a + b);
+    return a + b;
+}
+
+// call
+console.log(add(5, 6));
